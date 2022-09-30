@@ -1,0 +1,41 @@
+.your-class::placeholder {
+    color: hsl(12, 88%, 59%);
+}
+
+#above-footer {
+    background-image: url(/bg-simplify-section-desktop.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -50%;
+    left: 10%;
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+
+    50% {
+        transform: translateY(10%);
+        opacity: .5;
+        height: 50%;
+    }
+
+    0%,
+    80% {
+        transform: translateY(-10%);
+        height: 80%;
+    }
+
+    100% {
+        opacity: 1;
+        height: 100%;
+    }
+
+}
+
+.animation {
+    animation: bounce 1s ease-in-out;
+}

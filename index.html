@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/fa332f2ba8.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="js.js" defer></script>
+  <link rel="stylesheet" href="main/output.css">
+  <link rel="stylesheet" href="main/css.css">
+
+  <title>Manage landing page</title>
+</head>
+
+<body>
+  <nav id="nav" class="container p-5 mx-auto">
+    <!-- nav bar -->
+    <section class="flex justify-between items-center">
+      <img src="images/logo.svg" alt="">
+      <section class="hidden md:flex md:gap-5  text-DarkBlue">
+        <a href="#" class="hover:text-BrightRed">Pricing</a>
+        <a href="#" class="hover:text-BrightRed">Product</a>
+        <a href="#" class="hover:text-BrightRed">About Us</a>
+        <a href="#" class="hover:text-BrightRed">Careers</a>
+        <a href="#" class="hover:text-BrightRed">Community</a>
+      </section>
+      <button
+        class="hover:opacity-50 hidden md:inline-block bg-BrightRed text-[#ffffff] font-medium px-6 py-2 rounded-full shadow-lg shadow-BrightRed ">Get
+        Started</button>
+      <button id="close-btn" class="hidden hover:bg-DarkGrayishBlue p-1"><img src="images/icon-close.svg" alt="">
+      </button>
+      <button id="humburger-btn" class="md:hidden hover:bg-DarkGrayishBlue p-1"><img src="images/icon-hamburger.svg"
+          alt=""></button>
+    </section>
+
+    <!-- on hamburger menu -->
+    <section id="hamburger-menu"
+      class="md:hidden hidden text-center m-5 md:gap-5 w- text-DarkBlue font-bold w-min mx-auto animate-bounce duration-75 ease-in-out ">
+      <a href="#" class="hover:text-BrightRed">Pricing</a>
+      <a href="#" class="hover:text-BrightRed">Product</a>
+      <a href="#" class="hover:text-BrightRed">About Us</a>
+      <a href="#" class="hover:text-BrightRed">Careers</a>
+      <a href="#" class="hover:text-BrightRed">Community</a>
+    </section>
+
+    <!-- nav bottom -->
+    <section class=" text-center mt-10 md:flex md:justify-between flex-row-reverse gap-7 md:text-left">
+      <section class="md:w-1/2">
+        <img src="images/illustration-intro.svg" alt="">
+      </section>
+      <section class="pb-14">
+        <h1 class=" md:max-w-lg text-4xl font-bold text-DarkBlue md:text-5xl  ">Bring everyone together to build better
+          products.</h1>
+        <p class="text-DarkGrayishBlue mt-5  px-3 md:px-0 md:max-w-xs md:mt-10">Manage makes it simple for software
+          teams
+          to plan
+          day-to-day
+          tasks while keeping the larger team goals in view.</p>
+        <button
+          class="hover:opacity-50 bg-BrightRed text-[#ffffff] font-medium px-6 py-2 mt-3 rounded-full md:mt-10 shadow-lg shadow-BrightRed">Get
+          Started</button>
+      </section>
+    </section>
+  </nav>
+
+
+  <!-- main area -->
+
+
+  <main class="container mx-auto ">
+    <section class="md:grid grid-cols-2 md:justify-between md:mt-32">
+      <section class="text-center px-5 md:text-left ">
+        <h2 class="text-3xl font-bold text-DarkBlue md:max-w-sm">What’s different about Manage?</h2>
+        <p class="text-DarkGrayishBlue mt-5 md:max-w-xs">Manage provides all the functionality your team needs, without
+          the complexity. Our software is tailor-made for modern digital
+          product teams.</p>
+      </section>
+      <section>
+        <section class="pl-6 mb-4 mt-10 md:mt-0">
+          <section class="flex items-center relative ">
+            <p class="bg-BrightRed px-4 -ml-3 py-1 text-[#ffffff] rounded-full absolute font-medium  ">01</p>
+            <p class="bg-VeryPaleRed w-full py-1 pl-12 text-DarkBlue font-bold md:bg-[#ffffff]">Track company-wide
+              progress
+            </p>
+          </section>
+          <p class="mt-3 -ml-3 text-DarkGrayishBlue">See how your day-to-day tasks fit into the wider vision. Go from
+            tracking progress at the milestone level all
+            the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+        </section>
+        <section class="pl-6 mb-4">
+          <section class="flex items-center relative ">
+            <p class="bg-BrightRed px-4 -ml-3 py-1 text-[#ffffff] rounded-full absolute font-medium  ">02</p>
+            <p class="bg-VeryPaleRed w-full py-1 pl-12 text-DarkBlue font-bold md:bg-[#ffffff]">Advanced built-in
+              reports</p>
+          </section>
+          <p class="mt-3 -ml-3 text-DarkGrayishBlue">Set internal delivery estimates and track progress toward company
+            goals. Our customisable dashboard helps you build out the reports
+            you need to keep key stakeholders informed.</p>
+        </section>
+        <section class="pl-6 mb-4">
+          <section class="flex items-center relative">
+            <p class="bg-BrightRed px-4 -ml-3 py-1 text-[#ffffff] rounded-full absolute font-medium  ">03</p>
+            <p class="bg-VeryPaleRed w-full py-1 pl-12 text-DarkBlue font-bold md:bg-[#ffffff]">Everything you need in
+              one
+              place</p>
+          </section>
+          <p class="mt-3 -ml-3 text-DarkGrayishBlue">Stop jumping from one service to another to communicate, store
+            files,
+            track tasks and share documents. Manage offers an all-in-one team
+            productivity solution.</p>
+        </section>
+      </section>
+
+    </section>
+
+
+
+    <!-- testimonials -->
+
+    <section class="container text-center md:mt-32">
+      <h2 class="text-3xl font-bold text-DarkBlue">What they’ve said</h2>
+
+
+      <!--  -->
+      <section class="md:grid grid-cols-2 grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 md:mt-10 ">
+        <section class="mt-16 mx-7">
+          <section class="bg-VaryLightGray relative pt-16 h-full">
+            <section class="wrapper absolute w-full text-center flex justify-center -top-8">
+              <img src="images/avatar-anisha.png" alt="" class="w-16">
+            </section>
+            <h2 class="text-DarkBlue font-bold">Anish Li</h2>
+            <p class="p-5 py-3 text-DarkGrayishBlue">“Manage has supercharged our team’s workflow. The ability to
+              maintain
+              visibility on larger milestones at all times keeps everyone motivated.”</p>
+          </section>
+        </section>
+        <section class="mt-16 mx-7">
+          <section class="bg-VaryLightGray relative pt-16 h-full">
+            <section class="wrapper absolute w-full text-center flex justify-center -top-8">
+              <img src="images/avatar-ali.png" alt="" class=" w-16">
+            </section>
+            <h2 class="text-DarkBlue font-bold">Ali Bravo</h2>
+            <p class="p-5 py-3 text-DarkGrayishBlue">“We have been able to cancel so many other subscriptions since
+              using
+              Manage. There is no more cross-channel confusion and everyone is much
+              more focused.”</p>
+          </section>
+        </section>
+        <section class="mt-16 mx-7">
+          <section class="bg-VaryLightGray relative pt-16 h-full">
+            <section class="wrapper absolute w-full text-center flex justify-center -top-8">
+              <img src="images/avatar-richard.png" alt="" class=" w-16">
+            </section>
+            <h2 class="text-DarkBlue font-bold">Richard Watts</h2>
+            <p class="p-5 py-3 text-DarkGrayishBlue">“Manage allows us to provide structure and process. It keeps us
+              organized
+              and focused. I can’t stop recommending them to everyone I talk to!”</p>
+          </section>
+        </section>
+        <section class="mt-16 mx-7">
+          <section class="bg-VaryLightGray relative pt-16 h-full">
+            <section class="wrapper absolute w-full text-center flex justify-center -top-8">
+              <img src="images/avatar-shanai.png" alt="" class=" w-16">
+            </section>
+            <h2 class="text-DarkBlue font-bold">Shanai Gough</h2>
+            <p class="p-5 py-3 text-DarkGrayishBlue">“Their software allows us to track, manage and collaborate on our
+              projects
+              from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+          </section>
+        </section>
+      </section>
+      <button
+        class="hover:opacity-50 bg-BrightRed text-[#ffffff] font-medium px-6 py-2 mt-6 rounded-full md:mt-12 shadow-lg shadow-BrightRed">Get
+        Started</button>
+    </section>
+  </main>
+
+  <!-- above footer -->
+  <section id="above-footer"
+    class="text-center bg-BrightRed mt-16 p-10 md:grid grid-cols-2 justify-end items-center md:mt-32">
+    <h2 class="text-[#ffff] font-bold text-4xl md:text-left md:max-w-md">Simplify how your team works today.</h2>
+    <section class="md:text-right">
+      <button
+        class="hover:opacity-50 text-BrightRed bg-[#ffffff] text-sm font-bold px-6 py-2  rounded-full max-w-fit mt-4 md:mt-0">Get
+        Started</button>
+    </section>
+  </section>
+
+  <!-- footer -->
+
+  <footer class="bg-VeryDarkBlue p-5 pb-16 md:p-8 md:grid grid-flow-col-dense grid-cols-4 justify-between gap-5">
+    <!-- email -->
+    <section class="mx-auto md:mx-0 md:text-right text-center  col-start-3 col-span-2">
+      <form action="" novalidate class="mx-auto " autocomplete="off">
+        <input type="email" name="email" id="email" placeholder="Updates in your inbox…"
+          class="pl-3 py-2 rounded-full focus:outline-none min-w-max w-8/12 " oninput="onInput()">
+        <button type="submit"
+          class="submit hover:opacity-50 text-[#ffffff] bg-BrightRed text-sm font-bold w-3/12 py-3 rounded-full ml-2 ">Go</button>
+        <p class="invalid text-left text-BrightRed pl-8 text-xs opacity-0">Please insert a valid email</p>
+      </form>
+      <p class="mt-16 text-right w-full text-DarkGrayishBlue text-xs hidden md:inline-block">Copyright 2020. All
+        Rights
+        Reserved </p>
+    </section>
+
+    <!--footer links  -->
+
+    <section
+      class="text-[#ffff] grid grid-cols-2 mt-8 mx-auto md:mx-0 md:mt-0 md:max-w-sm  col-start-2 max-w-max gap-5 md:gap-0 ">
+      <ul>
+        <li class="mb-2"><a href="#" class="hover:text-BrightRed">Home</a></li>
+        <li class="mb-2"><a href="#" class="hover:text-BrightRed">Pricing</a></li>
+        <li class="mb-2"><a href="#" class="hover:text-BrightRed">Products</a></li>
+        <li class="mb-2"><a href="#" class="hover:text-BrightRed">About Us</a></li>
+      </ul>
+      <ul>
+        <li class="mb-2"><a href="#" class="hover:text-BrightRed">Careers</a></li>
+        <li class="mb-2"><a href="#" class="hover:text-BrightRed">Community</a></li>
+        <li class="mb-2"><a href="#" class="hover:text-BrightRed">Privacy Policy</a></li>
+      </ul>
+    </section>
+
+    <!--social media icons  -->
+    <section class="flex flex-col-reverse justify-between pt-4 w-max mx-auto md:mx-0  ">
+      <section class="flex mt-10  text-[#fff] max-w-md mx-auto text-3xl gap-4  md:text-2xl md:gap-2 md:mx-0">
+        <a href=""><i class="fa-brands fa-square-facebook  hover:text-BrightRed cursor-pointer"></i></a>
+        <a href=""><i class="fa-brands fa-youtube  hover:text-BrightRed cursor-pointer"></i></a>
+        <a href=""><i class="fa-brands fa-twitter  hover:text-BrightRed cursor-pointer"></i></a>
+        <a href=""><i class="fa-brands fa-pinterest  hover:text-BrightRed cursor-pointer"></i></a>
+        <a href=""><i class="fa-brands fa-instagram  hover:text-BrightRed cursor-pointer"></i></a>
+      </section>
+      <img src="images/logo copy.svg" alt="" class="mx-auto w-fit mt-12 md:mx-0 md:mt-0">
+    </section>
+    <p class="mt-20 text-center text-DarkGrayishBlue text-xs md:hidden">Copyright 2020. All Rights Reserved </p>
+  </footer>
+</body>
+
+</html>
